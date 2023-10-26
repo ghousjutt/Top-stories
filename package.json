@@ -1,0 +1,22 @@
+{
+  "name": "mern_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "start:dev:server": "cd server && yarn start",
+    "start:dev:client": "cd client && yarn start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}
